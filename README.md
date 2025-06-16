@@ -6,7 +6,7 @@ The app also offers dataset exploration, basic Optuna tuning results and error a
 ---
 
 ## 🚀 Live Demo  
-👉 **<[https://YOUR-STREAMLIT-URL](https://fake-news-detector-ew6eylsn9cgfwsivjin4ce.streamlit.app/)>** &nbsp; 
+👉 **<[https://fake-news-detector-ew6eylsn9cgfwsivjin4ce.streamlit.app/](https://fake-news-detector-ew6eylsn9cgfwsivjin4ce.streamlit.app/)>** &nbsp; 
 
 ---
 
