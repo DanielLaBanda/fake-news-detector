@@ -52,6 +52,40 @@ def ensure_model(folder: str, file_id: str):
 for fld, fid in GDRIVE_MODELS.items():
     ensure_model(fld, fid)
 
+GDRIVE_DATA = {
+    "train_dataset.csv": "1MJsa4BkciVgMBA60hJPhJojqqgMa7r-R",
+}
+
+
+def gdown_dl(fid, out):
+    url = f"https://drive.google.com/uc?id={fid}"
+    subprocess.run(
+        [sys.executable, "-m", "gdown", url, "-O", out, "--fuzzy", "--quiet"],
+        check=True,
+    )
+
+
+def ensure_zip(folder, fid):
+    if not os.path.exists(os.path.join(folder, "config.json")):
+        z = f"{folder}.zip"
+        if not os.path.isfile(z):
+            gdown_dl(fid, z)
+        with zipfile.ZipFile(z) as zf:
+            zf.extractall(folder)
+        os.remove(z)
+
+
+def ensure_file(fname, fid):
+    if not os.path.isfile(fname):
+        gdown_dl(fid, fname)
+
+
+for fld, fid in GDRIVE_MODELS.items():
+    ensure_zip(fld, fid)
+
+
+ensure_file("train_dataset.csv", GDRIVE_DATA["train_dataset.csv"])
+
 # ──────────────────────────────────────────────────────────
 # 1. Imports
 # ──────────────────────────────────────────────────────────
