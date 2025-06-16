@@ -43,7 +43,10 @@ def ensure_model(folder: str, file_id: str):
     zip_path = f"{folder}.zip"
     url = f"https://drive.google.com/uc?id={file_id}"
     if not os.path.isfile(zip_path):
-        subprocess.run([sys.executable, "-m", "gdown", url, "-O", zip_path], check=True)
+        subprocess.run(
+            [sys.executable, "-m", "gdown", url, "-O", zip_path, "--fuzzy", "--quiet"],
+            check=True,
+        )
     with zipfile.ZipFile(zip_path) as zf:
         zf.extractall(folder)
     os.remove(zip_path)
