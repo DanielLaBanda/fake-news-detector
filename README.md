@@ -46,7 +46,7 @@ They’re stored on Google Drive and are downloaded / unzipped automatically the
 The figure below shows F1 over trials; the best configuration (trial 4) uses **lr 3 e-5, batch 8, 3 epochs**.
 
 <p align="center">
-  <img src="images/optuna_f1_plot.png" alt="Optuna F1 curve" width="500">
+  <img src="optuna_f1_plot.png" alt="Optuna F1 curve" width="500">
 </p>
 
 4. **Model Analysis & Justification**  
