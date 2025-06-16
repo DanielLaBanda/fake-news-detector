@@ -6,7 +6,7 @@ The app also offers dataset exploration, basic Optuna tuning results and error a
 ---
 
 ## 🚀 Live Demo  
-👉 **<https://YOUR-STREAMLIT-URL>** &nbsp; _(replace once deployed)_
+👉 **<[https://YOUR-STREAMLIT-URL](https://fake-news-detector-ew6eylsn9cgfwsivjin4ce.streamlit.app/)>** &nbsp; 
 
 ---
 
@@ -27,7 +27,7 @@ Because of their size, the fine-tuned weights aren’t committed to GitHub.
 They’re stored on Google Drive and are downloaded / unzipped automatically the first time the app runs.
 
 📦 **Download folder (models + train CSV)**  
-👉 <https://drive.google.com/drive/folders/1yxKA8RkMeU7PVfer-5eZ95Oqhm7qNKqn?usp=drive_link> &nbsp;_(public, read-only)_
+👉 <[https://drive.google.com/drive/folders/1yxKA8RkMeU7PVfer-5eZ95Oqhm7qNKqn?usp=drive_link](https://drive.google.com/drive/folders/15H6J5pO-xqnMABSI2Mfb9P1kops6simH?hl=es-419)> &nbsp;
 
 ---
 
@@ -42,6 +42,12 @@ They’re stored on Google Drive and are downloaded / unzipped automatically the
 3. **Hyperparameter Tuning**  
    * Shows Optuna F1-curve (5 trials).  
    * No deep search was performed — DistilBERT reached 0.98 F1 with default LR 3e-5 / batch 8, so time was spent on analysis instead.
+   * Only 5 Optuna trials were run—just enough to confirm a good learning-rate / batch-size pair without burning Colab hours.  
+The figure below shows F1 over trials; the best configuration (trial 4) uses **lr 3 e-5, batch 8, 3 epochs**.
+
+<p align="center">
+  <img src="images/optuna_f1_plot.png" alt="Optuna F1 curve" width="500">
+</p>
 
 4. **Model Analysis & Justification**  
    * Classification report, confusion matrix, error inspection.  
@@ -92,4 +98,16 @@ python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
 pip install -r requirements.txt
-streamlit run streamlit_app.py
+streamlit run streamlit_app.py ``` 
+
+
+## 🙌 Built With
+
+- 🤗 Hugging Face Transformers  
+- 🔥 PyTorch  
+- 🧼 Streamlit  
+- 📊 Scikit-learn  
+- 📈 Seaborn, Plotly, Matplotlib  
+- 💻 Google Colab Pro (for training)
+
+
