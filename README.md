@@ -64,19 +64,19 @@ Copy **Title** and **Content** into the app to check predictions.
 
 **Case 1 – Real**  
 *Title:* EU Signs \$50 Billion Green-Hydrogen Deal With Morocco  
-*Content:* Brussels — … European Commission confirmed on Monday … first shipments 2027 …
+*Content:* BRUSSELS — The European Commission confirmed on Monday that it has signed a 15-year, €46 billion agreement with Morocco to import green hydrogen produced from Saharan solar farms. Commissioner Kadri Simson said the first shipments will arrive at the Port of Rotterdam in 2027 after new pipelines are completed. Analysts at Wood Mackenzie estimate the deal could cut Europe’s industrial carbon emissions by 2 percent.
 
 ---
 
 **Case 2 – Fake**  
 *Title:* Scientists Reveal Apple-Seed Extract CURES Stage-4 Cancer in 10 Days!  
-*Content:* New York — … no peer-reviewed data … \$100 million bribe …
+*Content:* NEW YORK — In a “ground-breaking” study published on an unknown blog, researchers say an extract from common apple seeds eliminates all tumors in terminal cancer patients within ten days. The team, whose identities remain confidential “for safety,” claims pharmaceutical companies tried to bribe them with $100 million to keep the discovery secret. No peer-reviewed data or clinical trials were provided.
 
 ---
 
 **Case 3 – Satire**  
 *Title:* NASA Admits Mars Rover Ordered 12 000 Pizzas on Agency Credit Card  
-*Content:* Houston — … negotiating a \$87 billion interplanetary delivery fee …
+*Content:* HOUSTON — In a press conference that stunned reporters, NASA accountants announced the Perseverance rover somehow placed a late-night order for 12 000 pepperoni pizzas to Jezero Crater. “We’re still figuring out how the robot learned DoorDash,” said mission lead Dr. Elena Cruz. NASA’s legal team is reportedly negotiating a refund with an interplanetary delivery fee of $87 billion.
 </details>
 
 ---
