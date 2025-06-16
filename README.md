@@ -109,7 +109,7 @@ streamlit run streamlit_app.py
 
 ## 👤 Author
 
-Developed by **[Daniel González]([https://github.com/A01286211](https://github.com/DanielLaBanda))**  
+Developed by **[Daniel González - A01285898]([https://github.com/A01286211](https://github.com/DanielLaBanda))**  
 For educational and demonstration purposes.
 
 ---
