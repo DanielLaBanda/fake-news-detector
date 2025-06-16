@@ -11,7 +11,7 @@ The app also offers dataset exploration, basic Optuna tuning results and error a
 ---
 
 ## 📁 Repository  
-👉 **<https://github.com/YOUR-USERNAME/fake-news-detector>**
+👉 **<[https://github.com/DanielLaBanda/fake-news-detector](https://github.com/DanielLaBanda/fake-news-detector)>**
 
 ---
 
@@ -42,12 +42,6 @@ They’re stored on Google Drive and are downloaded / unzipped automatically the
 3. **Hyperparameter Tuning**  
    * Shows Optuna F1-curve (5 trials).  
    * No deep search was performed — DistilBERT reached 0.98 F1 with default LR 3e-5 / batch 8, so time was spent on analysis instead.
-   * Only 5 Optuna trials were run—just enough to confirm a good learning-rate / batch-size pair without burning Colab hours.  
-The figure below shows F1 over trials; the best configuration (trial 4) uses **lr 3 e-5, batch 8, 3 epochs**.
-
-<p align="center">
-  <img src="optuna_f1_plot.png" alt="Optuna F1 curve" width="500">
-</p>
 
 4. **Model Analysis & Justification**  
    * Classification report, confusion matrix, error inspection.  
@@ -98,8 +92,9 @@ python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
 pip install -r requirements.txt
-streamlit run streamlit_app.py ``` 
+streamlit run streamlit_app.py
 
+```
 
 ## 🙌 Built With
 
@@ -110,4 +105,11 @@ streamlit run streamlit_app.py ```
 - 📈 Seaborn, Plotly, Matplotlib  
 - 💻 Google Colab Pro (for training)
 
+---
 
+## 👤 Author
+
+Developed by **[Daniel González]([https://github.com/A01286211](https://github.com/DanielLaBanda))**  
+For educational and demonstration purposes.
+
+---
